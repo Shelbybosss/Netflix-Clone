@@ -1,2 +1,2 @@
 # Netflix-Clone
-A Clone of the popular streaming platform Netflix
+A Clone of the popular video streaming platform Netflix
