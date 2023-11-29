@@ -15,12 +15,12 @@ body {
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    height: 644px;
+    height: 875px;
     position: relative;
 }
 
 .main .box {
-    height: 644px;
+    height: 875px;
     width: 100%;
     opacity: 0.69;
     position: absolute;
@@ -97,6 +97,17 @@ nav button {
     cursor: pointer;
 
 }
+
+.btn-english{
+    background-color: rgba(23,23,23,0.5);
+    padding: 3px 24px;
+    font-weight:lighter;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    color:white ;
+
+}
 .main input{
     font-size: 20px;
     border:0;
@@ -121,6 +132,7 @@ nav button {
 }
 
 .first {
+    height:650px;
     display: flex;
     justify-content: center;
     max-width: 70vw;
@@ -147,4 +159,105 @@ nav button {
     top: 51px;
     right: 0;
     width: 555px;
+}
+
+.secImg3{
+    position: relative;
+}
+
+.secImg3 img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg3 video{
+    position: absolute;
+    top: 50px;
+    right: 130px;
+    width: 300px;
+}
+
+.boldtext{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.smalltext{
+    font-size: 25px;
+}
+
+
+.footer-low {
+    display: flex;
+    justify-content: space-around;
+    background-color: black; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 20px; /* Add padding to the footer */
+}
+
+.footer-item {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-item a {
+    color: #fff; /* Set the link color */
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px; /* Add spacing between links */
+}
+
+.footer-item a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.btn-red-sm{
+    font-weight: normal;
+    
+}
+.btn-red{
+    font-weight: normal;
+    
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
 }
